@@ -12,7 +12,7 @@ namespace AWForm
 {
     class DataAccess
     {
-        string connectionString = ConfigurationManager.ConnectionStrings["AdventureWorks2016"].ConnectionString;
+        string connectionString = ConfigurationManager.ConnectionStrings[""].ConnectionString;
 
 
 
