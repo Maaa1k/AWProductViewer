@@ -12,7 +12,7 @@ namespace AWProductViewer
 {
     class DataAccess
     {
-        string connectionString = "Server=tcp:spdvi2021di01malb.database.windows.net,1433;Initial Catalog=AdventureWorks2016;Persist Security Info=False;User ID=maik;Password=eqyjanU5;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+        string connectionString = "";
 
 
         public List<Product> TotalProducts()
